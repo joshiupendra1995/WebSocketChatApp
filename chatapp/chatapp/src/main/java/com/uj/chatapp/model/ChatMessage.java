@@ -1,5 +1,8 @@
 package com.uj.chatapp.model;
 
+/**
+ *  CreatedBy Upendra
+ */
 public class ChatMessage {
 
 	private MessageType messageType;
@@ -8,6 +11,9 @@ public class ChatMessage {
 
 	private String sender;
 
+	/**
+	 * The Enum MessageType.
+	 */
 	public enum MessageType {
 		CHAT, JOIN, LEAVE
 	}
