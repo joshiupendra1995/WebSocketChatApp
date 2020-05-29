@@ -35,8 +35,8 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 		registry.setApplicationDestinationPrefixes("/app");
 
 		// Use this for enabling a Full featured broker like RabbitMQ
-		registry.enableStompBrokerRelay("/topic").setRelayHost("157.33.229.214").setRelayPort(5672).setClientLogin("guest1234")
-				.setClientPasscode("guest@123456").setSystemLogin("guest1234").setSystemPasscode("guest@123456");
+		registry.enableStompBrokerRelay("/topic").setRelayHost("localhost").setRelayPort(61613).setClientLogin("guest")
+				.setClientPasscode("guest");
 	}
 
 }
